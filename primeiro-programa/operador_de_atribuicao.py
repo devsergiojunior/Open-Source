@@ -2,11 +2,11 @@ saldo = 500
 
 print(saldo)
 
-saldo = 200
+#saldo = 200
 
-print(saldo)
+#print(saldo)
 
-saldo += 10
+saldo += 300
 print(saldo)
 
 saldo -= 5
