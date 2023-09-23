@@ -1,4 +1,4 @@
-"""""
+"""
 saldo = 2000.0
 saque = float(input("Informe o valor do saque: "))
 
@@ -7,7 +7,8 @@ if saldo >= saque:
 else :
     print("Saldo insufuciente!")
 
-"""
+""" # Usando 3 aspta duplas ele vai comentar um bloco de texto
+
 
 saldo = 2000.0
 # saque = float(input("Informe o valor do saque: "))
@@ -25,4 +26,4 @@ if opcao == 1:
 elif opcao == 2:
     print("Exibindo o extrato ...")
 else:
-    sys.exit("Opção invalida")
+    print("Opção invalida"), SystemExit
